@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import 'https://kit.fontawesome.com/1b49c984c1.js';
 import './PopUp.css';
 
 const Pop = document.querySelector('.pop-up-wrapper')

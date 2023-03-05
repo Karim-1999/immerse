@@ -1,0 +1,12 @@
+
+Colorebianco Titoli: #F9FAFF   (sono leggermente gradient i testi e titoli)
+
+Colore Verde acqua sottotitoli e virgolette: #2EE5AD (in realtà è una sfumatura- gradient!)
+
+Colore Giallo link: #FFFA99
+
+colre Prezzzo 45: #45FDC6  è anch'esso un gradient attorno a questo colore 
+
+colore divisorio footer: #33FFC2  colore fisso! 
+
+colore copiright pagine legali: #7E7D8C

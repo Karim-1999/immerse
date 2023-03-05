@@ -1,0 +1,31 @@
+.contbut{
+    display: flex;
+    gap: 10px ;
+   justify-content: flex-end;
+      right: 50px;
+}
+
+.nav-item{
+    border: 1px solid #f9faff;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out; 
+}
+
+.nav-item:hover{
+    background-color: #33ffc2;
+    border: 1px solid #33ffc2;
+    color: #03011a;
+    transition: 0.3s ease-in-out;
+}
+
+.txtc{
+    text-align: center;
+}
+

@@ -1,0 +1,136 @@
+/* IMPORTAZIONE MANROPE FONT  */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap");
+/*  FINE IMPORTAZIONE MANROPE FONT  */
+/* IMPORTAZIONE FONT ES KLARHEIT */
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Bold.woff2 ");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Book.woff2 ");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* FINE IMPORTAZIONE FONT ES KLARHEIT */
+/* IMPORTAZIONE FONT LAZARE GROTESK */
+@font-face {
+  font-family: "Lazare Grotesk";
+  src: url("/src/assets/font/LazareGroteskRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lazare Grotesk";
+  src: url("/src/assets/font/LazareGroteskMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* FINE IMPORTAZIONE FONT LAZARE GROTESK */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h3,
+h2,
+h1 {
+  font-family: "ES Klarheit", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  background-color: #03011a;
+  font-family: Manrope, sans-serif;
+  color: #f9faff;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.container {
+  padding: 0 24px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0;
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+/* colore del background blue body */
+/* colore bianco body */
+/* colore verde acqua testi subline */
+/* gradiente applicato a chi ha la classe .gradient-heading */
+/* gradiente sopra pricing in giallo */
+/* gradient applicato al prezzo 45*  */
+/* hover link footer e social icon */
+/* input placeholder */
+/* input focus colore bordo*/
+/* background image sfondo menu una volta aperto con schermo max-widht 991px */
+.card-btn {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Lazare Grotesk";
+  font-size: 1rem;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+.button-pass {
+  display: inline-block;
+  padding: 0.094rem;
+  border-radius: 12.5rem;
+  filter: none;
+  transition: padding 0.5s, background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background-image: linear-gradient(130deg, #33ffc2 10%, rgba(151, 243, 216, 0.5) 100%, rgba(46, 229, 173, 0.1));
+  box-shadow: none;
+}
+.button-pass:hover {
+  padding: 3px;
+  box-shadow: 0 0 16px 0 rgba(240, 242, 250, 0.4);
+}
+
+.button-7-pass {
+  display: -webkit-box;
+  padding: 0.781rem 1.906rem;
+  align-items: center;
+  border-radius: 12.5rem;
+  background-color: #03011a;
+  color: #f0f2fa;
+  transition: 0.5s ease;
+}
+.button-7-pass:hover {
+  padding: 11px 29px;
+  box-shadow: 0 0 16px 0 rgba(240, 242, 250, 0.4);
+}
+.button-7-pass:active, .button-7-pass:focus-within {
+  border-color: #03011a;
+  background-image: none;
+  background-color: #33ffc2;
+  transition: none;
+}/*# sourceMappingURL=buttonPass.css.map */

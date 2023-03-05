@@ -1,0 +1,86 @@
+/* IMPORTAZIONE MANROPE FONT  */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap");
+/*  FINE IMPORTAZIONE MANROPE FONT  */
+/* IMPORTAZIONE FONT ES KLARHEIT */
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Bold.woff2 ");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Book.woff2 ");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* FINE IMPORTAZIONE FONT ES KLARHEIT */
+/* IMPORTAZIONE FONT LAZARE GROTESK */
+@font-face {
+  font-family: "Lazare Grotesk";
+  src: url("/src/assets/font/LazareGroteskRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lazare Grotesk";
+  src: url("/src/assets/font/LazareGroteskMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* FINE IMPORTAZIONE FONT LAZARE GROTESK */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h3,
+h2,
+h1 {
+  font-family: "ES Klarheit", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  background-color: #03011a;
+  font-family: Manrope, sans-serif;
+  color: #f9faff;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.container {
+  padding: 0 24px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0;
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+/* colore del background blue body */
+/* colore bianco body */
+/* colore verde acqua testi subline */
+/* gradiente applicato a chi ha la classe .gradient-heading */
+/* gradiente sopra pricing in giallo */
+/* gradient applicato al prezzo 45*  */
+/* hover link footer e social icon */
+/* input placeholder */
+/* input focus colore bordo*/
+/* background image sfondo menu una volta aperto con schermo max-widht 991px *//*# sourceMappingURL=variabili.css.map */

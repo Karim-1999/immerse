@@ -1,0 +1,30 @@
+@import "../../../../assets/css/variabili.scss";
+
+.card-btn {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Lazare Grotesk';
+    font-size: 1rem;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+.button-now-available {
+    max-width: 100%;
+    padding: 0.75rem 1.5rem;
+    border: 0.094rem solid $aquagreen;
+    border-radius: 6.25rem;
+    background-image: radial-gradient(circle farthest-corner at 0 100%, #2ee5ad, $aquagreen 50%, #97f3d8);
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    opacity: .5;
+    color: #2c3e50;
+    font-size: 0.625rem;
+    line-height: 1.4em;
+    font-weight: 500;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}

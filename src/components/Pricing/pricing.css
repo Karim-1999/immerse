@@ -1,0 +1,156 @@
+@import '../../assets/css/variabili.css';
+.template {
+  flex: 1;
+}
+
+.container {
+  text-align: center;
+}
+.container h2 {
+  margin-bottom: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 4rem;
+}
+.container .par-title-head {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+.container .pricing-template {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-header {
+  background-image: linear-gradient(190deg, #fffa99, #ffd233 50%, #ffa81c);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  outline-offset: -1px;
+  outline: #fffa99 solid 1px;
+  color: #03011a;
+}
+.card-header p:nth-child(2) {
+  color: #04012d;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 24px;
+  padding-top: 32px;
+  background-image: linear-gradient(180deg, rgba(216, 218, 229, 0.1), rgba(216, 218, 229, 0.2));
+  min-height: 351px;
+}
+.card-body .body-margin {
+  margin-bottom: 48px;
+}
+.card-body .body-margin div {
+  color: #33ffc2;
+  margin-bottom: 16px;
+}
+.card-body .body-margin h3 {
+  font-family: "Lazare Grotesk", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.card-body .body-margin h3 span {
+  color: #ffd233;
+}
+.card-body .body-margin p {
+  color: #d8dae5;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.list-style ul {
+  list-style-type: none;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://assets.website-files.com/62b46e994f1dca9e9be49474/635bf4d8db42aff885976a2a_checkmark-small.svg);
+  background-position: 0 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: hsla(0, 0%, 100%, 0.57);
+}
+.list-style ul li p {
+  margin-bottom: 0;
+  padding-top: 0.3rem;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.section-container {
+  padding: 120px 0 120px;
+}
+
+.grid-template {
+  display: grid;
+  grid-auto-columns: 1fr;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin-bottom: 24px;
+  list-style-type: none;
+}
+.grid-template li {
+  padding-left: 56px;
+  background-image: url(https://assets.website-files.com/62b46e994f1dca9e9be49474/62b46e994f1dca249be49547_Pricing%20Check.svg);
+  background-position: 0 0;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: hsla(0, 0%, 100%, 0.57);
+}
+
+.green-paragraph {
+  color: #33ffc2;
+  margin-bottom: 0.5rem;
+  font-family: "Lazare Grotesk", sans-serif;
+  font-size: 1rem;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.h5-section-class {
+  margin-bottom: 48px;
+  font-family: "Lazare Grotesk", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.grid-template {
+  text-align: left;
+}
+.grid-template .title-overline {
+  margin-bottom: 0.5rem;
+  font-family: "Lazare Grotesk", sans-serif;
+  font-size: 1rem;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.grid-template p {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=pricing.css.map */

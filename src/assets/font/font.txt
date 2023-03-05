@@ -1,0 +1,11 @@
+
+
+ciò che ho capito è che il testo maiuscolo è in 'Lazare Grotesk',sans-serif mentre il testo normale è in 'Manrope',sans-serif
+
+body: font-family: 'Manrope',sans-serif; 
+
+
+h3, h2, h1: font-family: 'ES Klarheit',sans-serif;
+ 
+
+Menu titolo: font-family: 'Lazare Grotesk'',sans-serif;  

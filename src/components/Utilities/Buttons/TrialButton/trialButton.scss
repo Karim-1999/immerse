@@ -1,0 +1,58 @@
+@import "../../../../assets/css/variabili.scss";
+
+.trial-btn {
+    display: inline-block;
+    padding: 0.094rem;
+    border-radius: 12.5rem;
+    background-image: linear-gradient(180deg, #2ee5ad, #97f3d8 50%, $aquagreen);
+    box-shadow: 0 0 1rem 0 rgba(240, 242, 250, .4);
+    -webkit-transition: padding .5s, background-color .5s, color .5s, box-shadow .5s;
+    transition: padding .5s, background-color .5s, color .5s, box-shadow .5s;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.938rem rgba(6, 2, 45, .6);
+    
+    &:active, &:focus-within {
+        background-image: none;
+        background-color: black;
+        box-shadow: 0 0 30px 0 $aquagreen;
+        padding: 3px;
+        transition: none;
+    }
+}
+
+.button-trial {
+    display: inline-block;
+    -webkit-transition: padding .5s, background-color .5s, color .5s, box-shadow .5s;
+    transition: padding .5s, background-color .5s, color .5s, box-shadow .5s;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 500;
+    letter-spacing: .08em;
+    text-shadow: 0 0 0.938rem rgba(6, 2, 45, .6);
+    padding: 0.781rem 1.906rem;
+    border-radius: 12.5rem;
+    background-color: $bg-colorBlu;
+    background-image: linear-gradient(225deg, rgba(151, 243, 216, .25), rgba(51, 255, 194, .5) 50%, #2ee5ad);
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover {
+        content: "";
+        border-radius: 200px;
+        background-image: linear-gradient(96.04deg, #2EE5AD 6.76%, $aquagreen 53.88%, #97F3D8 106.46%);
+        box-shadow: 0 0 16px 0 rgb(240 242 250 / 40%);
+        color: black;
+        transition: 0.5s;
+    }
+    &:active, &:focus-within {
+        color: $bg-colorBlu;
+        background-color: $aquagreen;
+
+    }
+}

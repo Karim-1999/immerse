@@ -1,0 +1,59 @@
+.title-partner {
+    padding-top: 224px;
+    padding-bottom: 96px;
+}
+
+.h1-partners{
+    font-size: 3rem;
+    letter-spacing: -.02em;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.h2-partners{
+    
+    color: #33ffc2;
+    text-align: left;
+    font-family: 'Lazare Grotesk',sans-serif;
+    font-size: 1rem !important;
+    line-height: 1.19;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+
+}
+
+
+.p-partners{
+    color: #f9faff;
+    font-family: Manrope,sans-serif;
+    line-height: 1.8;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .h1-partners{
+        font-size: 88px;
+    }
+   .h2-partners{
+    margin-bottom: 0;
+   }
+
+    .p-partners{
+        color: #f9faff;
+        font-family: Manrope,sans-serif;
+        line-height: 1.8;
+        font-size: 24px;
+      
+    }
+
+}

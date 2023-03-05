@@ -1,0 +1,222 @@
+.nav1 {
+  letter-spacing: 0.08em;
+  color: aliceblue;
+}
+.nav1 li,
+.nav1 a {
+  text-decoration: none;
+  list-style: none;
+}
+.nav1__checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 75px;
+  background-color: rgba(18, 13, 87, 0.4);
+  box-sizing: border-box;
+  font-size: 16px;
+  min-height: 81px;
+  flex-grow: 1;
+}
+.nav1__checkbox--change {
+  padding: 24px;
+}
+.nav1__checkbox--change a {
+  display: flex;
+}
+.nav1__checkbox--change img {
+  height: 18px;
+  width: 119.25px;
+}
+.nav1 #nav1__navList {
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: #04012d;
+  height: 100vh;
+}
+.nav1 #nav1__navList ul {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: inherit;
+}
+.nav1 #nav1__navList li {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  transition: 0.5s;
+  text-shadow: 0 0 16px rgba(240, 242, 250, 0.4);
+  background-color: inherit;
+  font-size: 1.5rem;
+}
+.nav1 #nav1__navList li a {
+  background-color: inherit;
+  color: aliceblue;
+}
+.nav1 #nav1__navList li a:hover {
+  color: rgb(51, 255, 194);
+  text-transform: 0.5s;
+  text-shadow: 0 0 16px rgba(51, 255, 194, 0.4);
+}
+.nav1 #logo {
+  cursor: pointer;
+  padding: 24px;
+  flex-grow: 1;
+  text-align: right;
+  font-size: 1.1251rem;
+  position: absolute;
+  right: 10px;
+}
+.nav1 #exitButton {
+  cursor: pointer;
+  padding: 24px;
+  flex-grow: 1;
+  text-align: right;
+  font-size: 1.1251rem;
+  position: absolute;
+  right: 10px;
+}
+.nav1 .nascondi {
+  display: none !important;
+}
+.nav1__checkbox__hr {
+  width: 0%;
+  height: 1px;
+  background-image: linear-gradient(90deg, rgba(51, 74, 255, 0.12), #334aff 25%, #334aff 75%, rgba(51, 74, 255, 0.12));
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav1 {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.nav2__position {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  margin-top: 24px;
+}
+.nav2__position div a {
+  width: 100%;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 24px 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+  text-shadow: 0 0 16px rgba(240, 242, 250, 0.4);
+}
+.nav2__position div a:hover {
+  color: rgb(51, 255, 194);
+  text-transform: 0.5s;
+  text-shadow: 0 0 16px rgba(51, 255, 194, 0.4);
+}
+
+.nav2 {
+  display: none;
+  letter-spacing: 0.08em;
+  color: aliceblue;
+  position: fixed;
+  width: 85%;
+  z-index: 999;
+  height: 75px;
+  transition: ease-in-out 0.5s;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav1__checkbox {
+    position: relative;
+  }
+  .nav1__checkbox--change {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .nav1__checkbox--change img {
+    width: 183px;
+    height: 48px;
+    padding-bottom: 0px;
+  }
+  #logo,
+  #exit {
+    justify-content: flex-end;
+    flex-grow: 1;
+    text-align: right;
+    background: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .navDesktopWrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .nav1 {
+    display: none;
+  }
+  .nav2 {
+    display: block;
+  }
+  .navbg {
+    position: fixed;
+    width: 0px;
+    z-index: 99;
+    height: 75px;
+    transition: ease-in-out 0.8s;
+  }
+  .nav2__logo {
+    position: relative;
+    display: grid;
+    place-content: center;
+  }
+  .img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+    height: 72px;
+    width: 119.25px;
+  }
+  .nav2__logo:hover .img1 {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .nav2__logo:hover .img2 {
+    opacity: 1;
+    transition: opacity 0.2s;
+  }
+}
+.nav2__logo svg {
+  transition: ease-in-out 0.8s;
+}
+.nav2__logo svg path {
+  transition: ease-in-out 0.3s;
+}
+
+.nav2__logo:hover {
+  cursor: pointer;
+}
+.nav2__logo:hover svg {
+  filter: drop-shadow(1px 1px 19px rgba(51, 255, 194, 0.93));
+  transition: ease-in-out 0.3s;
+}
+.nav2__logo:hover svg path {
+  fill: #33FFC2;
+  transition: ease-in-out 0.3s;
+}/*# sourceMappingURL=style.css.map */

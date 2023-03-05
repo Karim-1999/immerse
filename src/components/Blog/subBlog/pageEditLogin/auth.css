@@ -1,0 +1,93 @@
+
+  
+ .wrapper2 .conInput{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .conInput .contInput2{
+    width: 370px;
+ }
+
+ .row {
+    width: 100%;
+ }
+
+ .row-text-wrapper {
+
+    width: 100%;
+    display: flex;
+    grid-column-gap: 208px;
+    padding-top: 64px;
+    padding-bottom: 120px;
+    justify-content: space-between;
+ }
+
+.row .col-12 {
+    margin-top: 20px;
+}
+
+ .row input{
+     width: 100%;
+     background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 32px;
+    height: 20px;
+    color: balck;
+
+
+}
+
+.ContBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ContBtn .btn-sign-in, .btn-sign-up{
+    width: 160px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.wr3{
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+
+}
+.blog-inputs {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.blog-inputs input {
+    background-color: white;
+    color: black;
+    padding:  15px 10px;
+    width: auto;
+    min-width: 300px;
+}
+
+.editorClassName {
+    background-color: white;
+    color: black;
+    min-height: 600px;
+} 
+
+.blog-inputs select {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rdw-editor-toolbar{
+    margin-bottom: 0;
+    border-radius: 0px;
+}

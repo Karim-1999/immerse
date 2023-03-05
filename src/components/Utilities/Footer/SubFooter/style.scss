@@ -1,0 +1,427 @@
+//inizio footer
+
+.faq__footer {
+	&--text {
+        display: flex;
+		flex-direction: column;
+		text-align: center;
+
+		h2 {
+			font-size: 34px;
+			font-weight: 400;
+			font-family: "ES Klarheit";
+			line-height: 1.2;
+			margin-bottom: 2.5rem;
+		}
+
+		.card-btn {
+			text-decoration: none;
+			cursor: pointer;
+			font-family: "Lazare Grotesk", sans-serif;
+			font-size: 1rem;
+			font-weight: bolder;
+		}
+
+		.trial-btn {
+			display: inline-block;
+			padding: 0.094rem;
+			border-radius: 12.5rem;
+			background-image: linear-gradient(180deg, #2ee5ad, #97f3d8 50%, #33ffc2);
+			box-shadow: 0 0 1rem 0 rgba(240, 242, 250, 0.4);
+			-webkit-transition: padding 0.5s, background-color 0.5s, color 0.5s,
+				box-shadow 0.5s;
+			transition: padding 0.5s, background-color 0.5s, color 0.5s,
+				box-shadow 0.5s;
+			color: #fff;
+			font-size: 1rem;
+			line-height: 1.4;
+			font-weight: 500;
+			text-align: center;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			text-shadow: 0 0 0.938rem rgba(6, 2, 45, 0.6);
+
+			&:active {
+				background-image: none;
+				background-color: black;
+				box-shadow: 0 0 30px 0 #33ffc2;
+				padding: 3px;
+				transition: none;
+			}
+
+			&:focus-within {
+				background-image: none;
+				background-color: black;
+				box-shadow: 0 0 30px 0 #33ffc2;
+				padding: 3px;
+				transition: none;
+			}
+		}
+
+		.button-trial {
+			display: inline-block;
+			-webkit-transition: padding 0.5s, background-color 0.5s, color 0.5s,
+				box-shadow 0.5s;
+			transition: padding 0.5s, background-color 0.5s, color 0.5s,
+				box-shadow 0.5s;
+			color: #fff;
+			line-height: 1.4;
+			font-weight: 500;
+			letter-spacing: 0.08em;
+			text-shadow: 0 0 0.938rem rgba(6, 2, 45, 0.6);
+			padding: 0.781rem 1.906rem;
+			border-radius: 12.5rem;
+			background-color: #03011a;
+			background-image: linear-gradient(225deg,
+					rgba(151, 243, 216, 0.25),
+					rgba(51, 255, 194, 0.5) 50%,
+					#2ee5ad);
+			text-transform: uppercase;
+			text-align: center;
+			width: 100%;
+
+			&:hover {
+				content: "";
+				border-radius: 200px;
+				background-image: linear-gradient(96.04deg,
+						#2ee5ad 6.76%,
+						#33ffc2 53.88%,
+						#97f3d8 106.46%);
+				box-shadow: 0 0 16px 0 rgba(240, 242, 250, 0.4);
+				color: black;
+				transition: 0.5s;
+			}
+
+			&:active {
+				color: #03011a;
+				background-color: #33ffc2;
+			}
+
+			&:focus-within {
+				color: #03011a;
+				background-color: #33ffc2;
+			}
+		}
+	}
+
+	&--media {
+		margin-top: 72px;
+
+		video {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+.company-product-footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 16px;
+}
+
+.company-footer,
+.product-footer {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1
+}
+
+.cont-svg {
+	position: relative;
+	display: grid;
+	place-content: center;
+	width: 24px;
+
+	&:hover svg {
+		color: #2ee5ad ;
+		path {
+			color: #2ee5ad;
+		}
+	}
+}
+
+.hover-svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.2s ease-out;
+}
+
+.social-links:hover {
+	.footer-svg {
+		opacity: 0;
+		transition: opacity .2s;
+	}
+
+	.hover-svg {
+		opacity: 1;
+		transition: opacity .2s;
+	}
+
+	& p {
+		color: #f9faff;
+		transition: .2s;
+	}
+}
+
+
+
+.cont-svg {
+	margin-right: 16px;
+	width: 24px;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+}
+
+.copyright-footer {
+	display: flex;
+	flex-direction: column;
+
+	& * {
+		margin-bottom: 16px;
+		margin-right: 24px;
+	}
+
+	.copy-paragraph {
+		margin-top: 0;
+		font-size: 1rem;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+.company-footer a,
+.product-footer a {
+	margin-right: 25px;
+	margin-bottom: 8px;
+	margin-left: -4px;
+	padding: 8px 4px;
+	transition: .5s;
+
+	&:hover {
+		color: #33ffc2;
+		transition: .5s;
+
+	}
+}
+
+.company-product-footer * {
+	color: #f9faff;
+}
+
+.company-footer p,
+.product-footer p {
+	margin-bottom: 24px;
+}
+
+footer {
+	padding: 72px 24px 16px;
+}
+
+.follow-footer {
+	margin-bottom: 1.5rem;
+
+	a {
+		padding: 8px;
+		margin: 0 0 8px -8px;
+
+		p {
+			margin: 0;
+			font-size: 1rem;
+		}
+	}
+}
+
+.follow-footer * :not(.follow-p-footer) {
+	color: #d8dae5;
+}
+
+.title-sections-footer {
+	color: #f9faff;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.7;
+	margin: 0 0 1.5rem;
+}
+
+.copyright-footer * {
+	color: rgba(249, 250, 255, .5);
+	;
+}
+
+.follow-footer-no-p {
+	display: grid;
+	width: 100%;
+	justify-items: start;
+	grid-auto-columns: 1fr;
+	grid-column-gap: 16px;
+	grid-row-gap: 0px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+
+.footer-cont {
+	width: 100%;
+	padding: 40px 0;
+}
+
+.immerse-logo-footer {
+	max-width: 272px;
+}
+
+.immerse-logo-a {
+	max-width: 440px;
+	display: block;
+	margin-bottom: 72px;
+	padding-right: 40px;
+
+}
+
+.separator {
+	margin: 128px 0 0;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	.separator {
+		margin: 128px 0 0;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.faq__footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		&--text {
+			justify-content: center;
+
+			h2 {
+				font-size: 5rem;
+			}
+		}
+	}
+
+	footer {
+		padding-left: 0;
+		padding-right: 0;
+		width: 85%;
+		margin: auto;
+	}
+
+	.follow-footer-no-p {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.follow-footer {
+		a {
+			p {
+				font-size: 1.125rem;
+			}
+		}
+	}
+
+	.title-sections-footer {
+		font-size: 1.125rem;
+	}
+
+	.immerse-logo-footer {
+		max-width: none;
+	}
+
+	.copyright-footer {
+		.copy-paragraph {
+			font-size: 1.125rem;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.no-cr-footer {
+		padding-top: 120px;
+		padding-bottom: 40px;
+		display: grid;
+		grid-column-gap: 16px;
+		grid-row-gap: 24px;
+		grid-template-columns: 3fr 2fr 1fr;
+		grid-template-rows: auto;
+		grid-auto-columns: 1fr;
+	}
+
+
+
+	.copyright-footer {
+		flex-direction: row;
+
+		& * {
+			margin: 0 24px 0 0;
+		}
+	}
+
+	.footer-cont {
+		padding-top: 0;
+	}
+
+	.immerse-logo-footer {
+		width: 100%;
+
+		& a {
+			max-width: 440px;
+
+			& img {
+				max-width: 440px;
+			}
+		}
+	}
+}
+
+.glowing-line-component {
+	position: relative;
+	width: 100%;
+	height: 3px;
+}
+
+.glow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #33ffc2;
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+
+.line {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #33ffc2;
+
+}
+
+// fine

@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+// button {
+//     padding: 10px 20px;
+//     display: inline-block;
+//     font-weight: 200;
+//     letter-spacing: 0.5px;
+//     color: #ffffff;
+//     text-decoration: none;
+//     border: none;
+//     outline: 0;
+//     border-radius: 4px;
+//     transition: 0.5s;
+//     background-color: #666666;
+//     cursor: pointer;
+// }
+
+
+.nav-career {
+    margin: 0 24px;
+    max-width: 900px;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    img {
+        margin-top: 14px;
+        max-width: 300px;
+        max-height: 40px;
+    }
+
+    .nav-links {
+        flex-grow: 1;
+        display: flex;
+        gap: 15px;
+        margin: auto 30px;
+        align-items: baseline;
+
+        // wont show till 900px
+        display: none;
+
+        .gallery-link {
+            flex-grow: 1;
+        }
+
+        .immerse-link {
+            padding: 8px 10px;
+            border: 2px solid #666;
+            border-radius: 4px;
+        }
+    }
+}
+
+.container-career {
+    border-bottom: 1px solid #eee;
+    padding: 40px 24px;
+
+    .description {
+        font-size: 16px;
+        font-weight: 300;
+
+        p {
+            max-width: 900px;
+            line-height: 1.5;
+            color: #444444;
+            margin: 0 auto 20px;
+            text-align: justify;
+        }
+    }
+
+    .position-title {
+        h1 {
+            font-size: 32px;
+            margin: 0 0 40px;
+            text-align: center;
+            font-weight: 300;
+        }
+    }
+
+    .position-wrapper {
+
+        .position-job {
+            margin: 30px auto;
+            padding: 10px 30px;
+            max-width: 600px;
+            position: relative;
+            cursor: pointer;
+            transition: 0.5;
+    
+            &:hover {
+                transition: 0.5;
+                background-color: #f9fafa;
+                border-radius: 4px;
+            }
+    
+            &:hover .apply-job {
+                background-color: rgb(51, 255, 194);
+            }
+            .job-title {
+                h2 {
+                    color: #444444;
+                    font-size: 22px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .job-info {
+                line-height: 1.5;
+                color: #666666;
+
+                i {
+                    margin-right: 5px;
+                }
+
+                li {
+                    list-style: none;
+                }
+            }
+        }
+
+        .apply-job {
+            display: none;
+            position: absolute;
+            right: 60px;
+            top: 35%;
+            padding: 10px 20px;
+        }
+    }
+}
+
+.banner {
+    background-image: linear-gradient(rgba(51, 255, 194, 0), rgba(51, 255, 194, 0)), url(https://gallery-cdn.breezy.hr/07935b9e-ba81-420b-86e0-14b2523af0c9/Oculus-Store_Immerse_HERO-Cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    padding: 0 40px;
+    text-align: center;
+
+    .banner-text {
+        padding: 120px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 44px;
+            margin: 0 0 20px;
+        }
+
+        p {
+            font-size: 22px;
+            margin: 0 0 40px;
+        }
+
+        .banner-btn {
+            background-color: rgba(0, 0, 0, 0.2);
+            border: 2px solid #fff;
+            font-size: 20px;
+            max-width: 294px;
+            width: 100%;
+            padding: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+.gallery {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 70px 0;
+    border-bottom: 1px solid #eee;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+
+    .image {
+        width: 290px;
+        height: 290px;
+        overflow: hidden;
+        
+        img {
+            transition: 0.5s;
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            object-fit: cover;
+        }
+
+        &:hover img {
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
+    }
+
+}
+.popout-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: none;
+    place-content: center;  
+    span {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+        cursor: pointer;   
+
+    }
+    img {
+        max-width: 700px;
+    }
+}
+.footerCareer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #444444;
+    padding: 30px 20px;
+
+    .footer-text {
+        letter-spacing: 0.5px;
+        color: #d7dadb;
+        line-height: 1.5;
+
+        .label {
+            font-size: 75%;
+        }
+
+        .brand {
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-career {
+        .nav-links {
+            display: flex;
+        }
+    }
+
+    .container-career {
+        .position-title {
+            h1 {
+                font-size: 45px;
+            }
+        }
+
+        .position-wrapper {
+            .apply-job {
+                display: block;
+            }
+        }
+    }
+
+    .banner {
+        .banner-text {
+            h1 {
+                font-size: 72px;
+                line-height: 1;
+            }
+        }
+    }
+
+    .gallery {
+        display: flex;
+    }
+}

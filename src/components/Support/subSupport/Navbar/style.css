@@ -1,0 +1,170 @@
+.supportHeader {
+  width: 100%;
+}
+.supportHeader .support-navbar {
+  min-height: 40px;
+  padding: 0 20px;
+  background: #04012d;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.supportHeader .support-navbar .nav-links-tablet {
+  display: none;
+}
+.supportHeader .support-navbar a {
+  margin-right: 40px;
+}
+.supportHeader .support-navbar a img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.supportHeader .support-navbar .fa-bars {
+  padding: 7px 10px;
+  margin: auto 0;
+  font-size: 20px;
+  color: #777;
+  position: absolute;
+  right: 10px;
+}
+.supportHeader .nav-links-mobile {
+  background-color: #04012d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 0;
+}
+.supportHeader .nav-links-mobile a {
+  color: #f0f2fa;
+  padding: 9px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  line-height: 2em;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  display: none;
+}
+.supportHeader .nav-links-mobile a:focus {
+  color: #2ee5ad;
+}
+.supportHeader .nav-links-mobile .clicked-link {
+  display: block;
+}
+.supportHeader .clicked {
+  height: auto;
+  padding-bottom: 9px;
+}
+
+@media screen and (min-width: 480px) {
+  header .support-navbar {
+    height: 86px;
+    display: flex;
+  }
+  header .support-navbar .support-immerse-logo {
+    width: 300px;
+    height: 64px;
+  }
+}
+.support-greeting h1 {
+  font-size: 32px;
+}
+.support-greeting .support-search {
+  position: relative;
+}
+.support-greeting .support-search button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 27px;
+  background: #4F92CA;
+  border: 1px solid #407FB3;
+  cursor: pointer;
+  position: absolute;
+}
+.support-greeting .support-search button p {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+}
+.support-greeting .support-search button:hover {
+  background: #4689C2;
+}
+.support-greeting .support-search .fa-magnifying-glass {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .supportHeader .support-navbar {
+    display: flex;
+    padding: 0 15%;
+  }
+  .supportHeader .support-navbar .fa-bars {
+    display: none;
+  }
+  .supportHeader .support-navbar .nav-links-tablet {
+    display: block;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    margin-top: 30px;
+    padding-left: 15%;
+  }
+  .supportHeader .support-navbar .nav-links-tablet .triangle, .supportHeader .support-navbar .nav-links-tablet .triangle1, .supportHeader .support-navbar .nav-links-tablet .triangle2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 47%;
+    border-top: 0;
+    border-bottom: 5px solid #F0F0F0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    color: red;
+  }
+  .supportHeader .support-navbar .nav-links-tablet .triangle1 {
+    right: 38%;
+  }
+  .supportHeader .support-navbar .nav-links-tablet .triangle2 {
+    right: 27%;
+  }
+  .supportHeader .support-navbar .nav-links-tablet .supp-nav-link {
+    color: #ffffff;
+    padding: 11px 15px;
+    margin: 0;
+    line-height: 32px;
+    font-size: 1.1em;
+  }
+  .supportHeader .support-navbar .nav-links-tablet a:hover {
+    color: #2ee5ad;
+    cursor: pointer;
+  }
+  .supportHeader .support-navbar .nav-links-tablet .general-quest,
+.supportHeader .support-navbar .nav-links-tablet .member,
+.supportHeader .support-navbar .nav-links-tablet .feed {
+    color: #2ee5ad;
+  }
+  .supportHeader .nav-links-mobile {
+    display: none;
+  }
+  .support-greeting .support-search {
+    width: 620px;
+  }
+  .support-greeting .support-search button p {
+    display: block;
+  }
+  .support-questions {
+    padding: 0 15%;
+    align-items: flex-start;
+  }
+  .support-questions .sup-link-title {
+    margin-left: 0;
+  }
+  .sup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+}/*# sourceMappingURL=style.css.map */

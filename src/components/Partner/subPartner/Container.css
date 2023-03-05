@@ -1,0 +1,21 @@
+/* .container{
+    width: 100%;
+    padding: 144px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color:#03011a;
+    padding: 24px;
+}
+
+@media screen and(min-width: 768px) {
+
+    .container{
+        padding: 0;
+        width: 85%;
+        max-width:1600px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    
+} */

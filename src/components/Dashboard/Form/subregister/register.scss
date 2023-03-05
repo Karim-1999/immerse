@@ -1,0 +1,118 @@
+a {
+  text-decoration: none;
+}
+
+// p {
+
+//     display: block;
+//     margin-block-start: 1em;
+//     margin-block-end: 1em;
+//     margin-inline-start: 0px;
+//     margin-inline-end: 0px;
+// }
+
+.register {
+  background-color: white;
+  line-height: normal;
+  z-index: -99;
+  &-background {
+    background-image: url("https://media.discordapp.net/attachments/993943001585942618/1035912008840781895/background.png?width=1046&height=588");
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+
+  &_title {
+    position: absolute;
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    top: 10vh;
+    line-height: normal;
+    width: 45vw;
+    padding: 24px;
+    margin-left: 4vw;
+    border-radius: 20px;
+    font-family: "ES Klarheit";
+    font-weight: 800;
+    background: linear-gradient(
+      242.22deg,
+      rgba(105, 66, 218, 0.08) -0.76%,
+      rgba(34, 85, 186, 0.08) 88.76%
+    );
+  }
+
+  &-wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    z-index: 1;
+
+    .register-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 100%;
+      padding: 48px 0px;
+
+      &_title {
+        font-size: 48px;
+        color: rgb(18, 13, 87);
+        font-family: "ES Klarheit";
+        line-height: 56px;
+        font-weight: 800;
+      }
+
+      &_inputs {
+        .input-wrapper {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 16px;
+          font-size: 16px;
+          line-height: 22.4px;
+          color: rgb(18, 13, 87);
+          font-weight: 800;
+        }
+
+        input {
+          font-size: 16px;
+          line-height: 22.4px;
+          color: rgb(0, 0, 0);
+          opacity: 0.4;
+          font-weight: 500;
+          margin: 5px;
+          width: 30vw;
+          min-width: 250px;
+          max-width: 350px;
+          height: 56px;
+          padding-left: 15px;
+          border-radius: 4px;
+          border: 1px solid rgb(125, 125, 125);
+          &::placeholder {
+            color: rgb(125, 125, 125);
+          }
+        }
+
+        .inputimg {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 16px;
+          img {
+            cursor: pointer;
+          }
+        }
+
+        .register-button {
+          display: grid;
+          place-content: center;
+        }
+      }
+    }
+  }
+}

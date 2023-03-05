@@ -1,0 +1,72 @@
+@import '../font/font.scss';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h3,
+h2,
+h1 {
+    font-family: 'ES Klarheit', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-color: #03011a;
+    font-family: Manrope, sans-serif;
+    color: #f9faff;
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.container {
+    padding: 0 24px;
+    width: 100%;
+}
+
+// MEDIA QUERY
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0;
+        width: 85%;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+
+/* colore del background blue body */
+$bg-colorBlu: #03011a;
+
+/* colore bianco body */
+$whiteColor: #f9faff;
+
+/* colore verde acqua testi subline */
+$aquagreen: #33ffc2;
+
+/* gradiente applicato a chi ha la classe .gradient-heading */
+$gradient: linear-gradient(90deg, #2ee5ad, #b2c8ff);
+
+
+/* gradiente sopra pricing in giallo */
+$yellowGradient: linear-gradient(90deg, #2ee5ad, #b2c8ff);
+
+
+/* gradient applicato al prezzo 45*  */
+$aquagreenGradient: radial-gradient(circle farthest-corner at 100% 0, #97f3d8, #33ffc2 50%, #2ee5ad);
+
+
+/* hover link footer e social icon */
+$hoverSocial: #33FFC2;
+
+/* input placeholder */
+$placeholder: #999;
+
+/* input focus colore bordo*/
+$borderColor: #3898ec;
+
+
+/* background image sfondo menu una volta aperto con schermo max-widht 991px */
+$bg-menu-cell: radial-gradient(circle farthest-corner at 0 0, #03011a 15%, #06022d 30%, #03011a 50%, #03011a 85%, #06022d)

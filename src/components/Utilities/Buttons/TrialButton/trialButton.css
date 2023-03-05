@@ -1,0 +1,137 @@
+/* IMPORTAZIONE MANROPE FONT  */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap");
+/*  FINE IMPORTAZIONE MANROPE FONT  */
+/* IMPORTAZIONE FONT ES KLARHEIT */
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Bold.woff2 ");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ES Klarheit";
+  src: url("/src/assets/font/ESKlarheitKurrent-Book.woff2 ");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* FINE IMPORTAZIONE FONT ES KLARHEIT */
+/* IMPORTAZIONE FONT LAZARE GROTESK */
+@font-face {
+  font-family: "Lazare Grotesk";
+  src: url("/src/assets/font/LazareGroteskRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lazare Grotesk";
+  src: url("/src/assets/font/LazareGroteskMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* FINE IMPORTAZIONE FONT LAZARE GROTESK */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h3,
+h2,
+h1 {
+  font-family: "ES Klarheit", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  background-color: #03011a;
+  font-family: Manrope, sans-serif;
+  color: #f9faff;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.container {
+  padding: 0 24px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0;
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+/* colore del background blue body */
+/* colore bianco body */
+/* colore verde acqua testi subline */
+/* gradiente applicato a chi ha la classe .gradient-heading */
+/* gradiente sopra pricing in giallo */
+/* gradient applicato al prezzo 45*  */
+/* hover link footer e social icon */
+/* input placeholder */
+/* input focus colore bordo*/
+/* background image sfondo menu una volta aperto con schermo max-widht 991px */
+.trial-btn {
+  display: inline-block;
+  padding: 0.094rem;
+  border-radius: 12.5rem;
+  background-image: linear-gradient(180deg, #2ee5ad, #97f3d8 50%, #33ffc2);
+  box-shadow: 0 0 1rem 0 rgba(240, 242, 250, 0.4);
+  transition: padding 0.5s, background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.938rem rgba(6, 2, 45, 0.6);
+}
+.trial-btn:active, .trial-btn:focus-within {
+  background-image: none;
+  background-color: black;
+  box-shadow: 0 0 30px 0 #33ffc2;
+  padding: 3px;
+  transition: none;
+}
+
+.button-trial {
+  display: inline-block;
+  transition: padding 0.5s, background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  color: #fff;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 0.938rem rgba(6, 2, 45, 0.6);
+  padding: 0.781rem 1.906rem;
+  border-radius: 12.5rem;
+  background-color: #03011a;
+  background-image: linear-gradient(225deg, rgba(151, 243, 216, 0.25), rgba(51, 255, 194, 0.5) 50%, #2ee5ad);
+  text-transform: uppercase;
+  text-align: center;
+}
+.button-trial:hover {
+  content: "";
+  border-radius: 200px;
+  background-image: linear-gradient(96.04deg, #2EE5AD 6.76%, #33ffc2 53.88%, #97F3D8 106.46%);
+  box-shadow: 0 0 16px 0 rgba(240, 242, 250, 0.4);
+  color: black;
+  transition: 0.5s;
+}
+.button-trial:active, .button-trial:focus-within {
+  color: #03011a;
+  background-color: #33ffc2;
+}/*# sourceMappingURL=trialButton.css.map */

@@ -1,0 +1,374 @@
+.blogWrapper .container-title {
+  padding: 144px 0 40px;
+  margin: 0 0 1rem;
+}
+.blogWrapper .container-title h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.blogWrapper .glowing-line-component {
+  padding: 0 24px;
+  position: relative;
+  margin: 0 auto;
+  height: 3px;
+}
+.blogWrapper .glowing-line-component .glow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #33ffc2;
+  filter: blur(10px);
+}
+.blogWrapper .glowing-line-component .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #33ffc2;
+}
+.blogWrapper .card2 {
+  padding-top: 72px;
+}
+.blogWrapper .card2 .imageshadow2 {
+  border-radius: 4px;
+  box-shadow: 0 0 25.0881px 0 #2ee5ad;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+  width: 100%;
+}
+.blogWrapper .card2 .imageshadow2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 3;
+}
+.blogWrapper .divText2 {
+  display: flex;
+  flex-direction: column;
+}
+.blogWrapper .divText2 h2 {
+  font-size: 1.875rem;
+  margin-bottom: 24px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+.blogWrapper .divText2 .subtitle2 {
+  display: flex;
+  flex-wrap: wrap;
+  box-align: center;
+  align-items: center;
+  grid-column-gap: 1rem;
+  grid-row-gap: 0.5rem;
+}
+.blogWrapper .divText2 .subtitle2 .research2 {
+  margin-bottom: 0.25rem;
+  font-family: "Lazare Grotesk", sans-serif;
+  color: #d8dae5;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.blogWrapper .divText2 .subtitle2 .data2 {
+  margin-bottom: 0.25rem;
+  font-family: "Lazare Grotesk", sans-serif;
+  color: #d8dae5;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.blogWrapper .btn {
+  max-width: 208px;
+  display: none;
+}
+.blogWrapper .trial-btn {
+  display: inline-block;
+  padding: 0.094rem;
+  border-radius: 12.5rem;
+  background-image: linear-gradient(180deg, #2ee5ad, #97f3d8 50%, #33ffc2);
+  box-shadow: 0 0 1rem 0 rgba(240, 242, 250, 0.4);
+  transition: padding 0.5s, background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.938rem rgba(6, 2, 45, 0.6);
+}
+.blogWrapper .trial-btn:active {
+  background-image: none;
+  background-color: black;
+  box-shadow: 0 0 30px 0;
+  padding: 3px;
+  transition: none;
+}
+.blogWrapper .trial-btn:focus-within {
+  background-image: none;
+  background-color: black;
+  box-shadow: 0 0 30px 0;
+  padding: 3px;
+  transition: none;
+}
+.blogWrapper .text-warpper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blogWrapper .button-trial {
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  transition: padding 0.5s, background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  color: #fff;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 0.938rem rgba(6, 2, 45, 0.6);
+  border-radius: 12.5rem;
+  background-color: #03011a;
+  background-image: linear-gradient(225deg, rgba(151, 243, 216, 0.25), rgba(51, 255, 194, 0.5) 50%, #2ee5ad);
+  text-transform: uppercase;
+}
+.blogWrapper .button-trial:hover {
+  content: "";
+  border-radius: 200px;
+  background-image: linear-gradient(96.04deg, #2ee5ad 6.76%, #33ffc2 53.88%, #97f3d8 106.46%);
+  box-shadow: 0 0 16px 0 rgba(240, 242, 250, 0.4);
+  color: black;
+  transition: 0.5s;
+}
+.blogWrapper .button-trial:active {
+  color: #03011a;
+  background-color: #33ffc2;
+}
+.blogWrapper .button-trial:focus-within {
+  color: #03011a;
+  background-color: #33ffc2;
+}
+.blogWrapper .card-btn {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Lazare Grotesk";
+  font-size: 1rem;
+}
+.blogWrapper a {
+  text-decoration: none;
+}
+.blogWrapper a:active {
+  outline: 0;
+}
+.blogWrapper a:hover {
+  outline: 0;
+}
+.blogWrapper .container-card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding: 30px;
+  width: 100%;
+}
+.blogWrapper .container-card .cardblog {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.blogWrapper .container-card .cardblog .pointer {
+  width: 100%;
+}
+.blogWrapper .container-card .cardblog .pointer a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.blogWrapper .container-card .cardblog .pointer a .imageshadow {
+  border-radius: 4px;
+  box-shadow: 0 0 25.0881px 0 #2ee5ad;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+  width: 100%;
+  max-height: 290px;
+  flex-grow: 1;
+}
+.blogWrapper .container-card .cardblog .pointer a .imageshadow img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 3;
+  display: block;
+}
+.blogWrapper .container-card .cardblog .pointer a .divText {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.blogWrapper .container-card .cardblog .pointer a .divText .title {
+  text-align: left;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.blogWrapper .container-card .cardblog .pointer a .divText .subtitle {
+  display: flex;
+  grid-column-gap: 1rem;
+  align-items: baseline;
+}
+.blogWrapper .container-card .cardblog .pointer a .divText .subtitle .research {
+  margin-bottom: 0.25rem;
+  font-family: "Lazare Grotesk", sans-serif;
+  color: #d8dae5;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.blogWrapper .data {
+  margin-bottom: 0.25rem;
+  font-family: "Lazare Grotesk", sans-serif;
+  color: #d8dae5;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.blogWrapper .filter {
+  margin-bottom: 22px;
+  text-align: center;
+}
+.blogWrapper .filter .heading5 {
+  font-family: "Lazare Grotesk", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.blogWrapper .filter .cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.blogWrapper .filter .cont .box {
+  border: 1px solid #f9faff;
+  box-sizing: border-box;
+  padding: 10px 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+.blogWrapper .filter .cont .box:hover {
+  background-color: #33ffc2;
+  border: 1px solid #33ffc2;
+  color: #03011a;
+  transition: 0.3s ease-in-out;
+}
+.blogWrapper .filter-reset-link {
+  display: inline-block;
+  margin-top: 24px;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+  font-family: "Lazare Grotesk", sans-serif;
+  color: #f9faff;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.blogWrapper .pointer {
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .blogWrapper .container {
+    width: 85%;
+    margin: auto;
+  }
+  .blogWrapper h1 {
+    font-family: "ES Klarheit", sans-serif;
+  }
+  .blogWrapper .container-card {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+  }
+  .blogWrapper .container-title h1 {
+    font-size: 5.5rem;
+    font-family: "ES Klarheit", sans-serif;
+  }
+}
+@media screen and (min-width: 990px) {
+  .blogWrapper .btn {
+    display: block;
+  }
+  .blogWrapper .card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+    margin-bottom: 100px;
+  }
+  .blogWrapper .container-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 96px;
+    padding-bottom: 120px;
+  }
+  .blogWrapper .divText2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .blogWrapper .divText2 h2 {
+    margin-bottom: 24px;
+    font-size: 3rem;
+    text-align: left;
+    line-height: 1.3;
+    font-weight: 700;
+    font-family: "ES Klarheit", sans-serif;
+  }
+  .blogWrapper .container-title h1 {
+    margin: 0 0 1rem;
+    font-family: "ES Klarheit", sans-serif;
+    font-size: 6rem;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+}
+.blogWrapper .logoutWrapperBlog {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 10px;
+}
+.blogWrapper .logoutWrapperBlog p {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=blog.css.map */

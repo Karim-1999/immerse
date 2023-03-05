@@ -1,0 +1,26 @@
+@import "../../../../assets/css/variabili.scss";
+
+.card-btn {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Lazare Grotesk';
+    font-size: 1rem;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+.button-get-one-here {
+    display: inline-block;
+    padding-bottom: 0;
+    border-bottom: 0.125rem solid #ffd233;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: #ffd233;
+    &:hover {
+        border-bottom-color: #fffa99;
+        color: #fffa99;
+    }
+}

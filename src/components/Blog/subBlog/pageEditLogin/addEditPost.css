@@ -1,0 +1,32 @@
+.catg-dropdown{
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    background-color: rgba(249,250,255,.1);
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+}
+.catg-dropdown2{
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    background-color: rgba(249,250,255,.1);
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contEmbed{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contEmbed iframe{
+    width: 95%;
+    height: 900px;
+}

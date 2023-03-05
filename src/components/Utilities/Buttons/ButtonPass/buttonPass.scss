@@ -1,0 +1,55 @@
+@import "../../../../assets/css/variabili.scss";
+
+.card-btn {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Lazare Grotesk';
+    font-size: 1rem;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+.button-pass {
+    display: inline-block;
+    padding: 0.094rem;
+    border-radius: 12.5rem;
+    -webkit-filter: none;
+    filter: none;
+    -webkit-transition: padding .5s, background-color .5s, color .5s, box-shadow .5s;
+    transition: padding .5s, background-color .5s, color .5s, box-shadow .5s;
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    background-image: linear-gradient(130deg, $aquagreen 10%, rgba(151, 243, 216, .5) 100%, rgba(46, 229, 173, .1));
+    box-shadow: none;
+    
+    &:hover {
+        padding: 3px;
+        box-shadow: 0 0 16px 0 rgb(240 242 250 / 40%);
+    }
+}
+
+.button-7-pass {
+    display: -webkit-box;
+    padding: 0.781rem 1.906rem;
+    align-items: center;
+    border-radius: 12.5rem;
+    background-color: $bg-colorBlu;
+    color: #f0f2fa;
+    transition: 0.5s ease;
+    &:hover {
+        padding: 11px 29px;
+        box-shadow: 0 0 16px 0 rgb(240 242 250 / 40%);
+    }
+    &:active, &:focus-within {
+        border-color: $bg-colorBlu;
+        background-image: none;
+        background-color: $aquagreen;
+        transition: none;
+    }
+}

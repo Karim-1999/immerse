@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-career {
+  margin: 0 24px;
+  max-width: 900px;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.nav-career img {
+  margin-top: 14px;
+  max-width: 300px;
+  max-height: 40px;
+}
+.nav-career .nav-links {
+  flex-grow: 1;
+  display: flex;
+  gap: 15px;
+  margin: auto 30px;
+  align-items: baseline;
+  display: none;
+}
+.nav-career .nav-links .gallery-link {
+  flex-grow: 1;
+}
+.nav-career .nav-links .immerse-link {
+  padding: 8px 10px;
+  border: 2px solid #666;
+  border-radius: 4px;
+}
+
+.container-career {
+  border-bottom: 1px solid #eee;
+  padding: 40px 24px;
+}
+.container-career .description {
+  font-size: 16px;
+  font-weight: 300;
+}
+.container-career .description p {
+  max-width: 900px;
+  line-height: 1.5;
+  color: #444444;
+  margin: 0 auto 20px;
+  text-align: justify;
+}
+.container-career .position-title h1 {
+  font-size: 32px;
+  margin: 0 0 40px;
+  text-align: center;
+  font-weight: 300;
+}
+.container-career .position-wrapper .position-job {
+  margin: 30px auto;
+  padding: 10px 30px;
+  max-width: 600px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5;
+}
+.container-career .position-wrapper .position-job:hover {
+  transition: 0.5;
+  background-color: #f9fafa;
+  border-radius: 4px;
+}
+.container-career .position-wrapper .position-job:hover .apply-job {
+  background-color: rgb(51, 255, 194);
+}
+.container-career .position-wrapper .position-job .job-title h2 {
+  color: #444444;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.container-career .position-wrapper .position-job .job-info {
+  line-height: 1.5;
+  color: #666666;
+}
+.container-career .position-wrapper .position-job .job-info i {
+  margin-right: 5px;
+}
+.container-career .position-wrapper .position-job .job-info li {
+  list-style: none;
+}
+.container-career .position-wrapper .apply-job {
+  display: none;
+  position: absolute;
+  right: 60px;
+  top: 35%;
+  padding: 10px 20px;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(51, 255, 194, 0), rgba(51, 255, 194, 0)), url(https://gallery-cdn.breezy.hr/07935b9e-ba81-420b-86e0-14b2523af0c9/Oculus-Store_Immerse_HERO-Cover.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 0 40px;
+  text-align: center;
+}
+.banner .banner-text {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .banner-text h1 {
+  font-size: 44px;
+  margin: 0 0 20px;
+}
+.banner .banner-text p {
+  font-size: 22px;
+  margin: 0 0 40px;
+}
+.banner .banner-text .banner-btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  font-size: 20px;
+  max-width: 294px;
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.gallery {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 70px 0;
+  border-bottom: 1px solid #eee;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: none;
+}
+.gallery .image {
+  width: 290px;
+  height: 290px;
+  overflow: hidden;
+}
+.gallery .image img {
+  transition: 0.5s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery .image:hover img {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.popout-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+  place-content: center;
+}
+.popout-image span {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+.popout-image img {
+  max-width: 700px;
+}
+
+.footerCareer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: #444444;
+  padding: 30px 20px;
+}
+.footerCareer .footer-text {
+  letter-spacing: 0.5px;
+  color: #d7dadb;
+  line-height: 1.5;
+}
+.footerCareer .footer-text .label {
+  font-size: 75%;
+}
+.footerCareer .footer-text .brand {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-career .nav-links {
+    display: flex;
+  }
+  .container-career .position-title h1 {
+    font-size: 45px;
+  }
+  .container-career .position-wrapper .apply-job {
+    display: block;
+  }
+  .banner .banner-text h1 {
+    font-size: 72px;
+    line-height: 1;
+  }
+  .gallery {
+    display: flex;
+  }
+}/*# sourceMappingURL=Career.css.map */
